@@ -83,6 +83,6 @@
     "build": "rm -rf dist/ && webpack --config config/webpack.config.production.js --mode production"
   },
   "pre-commit": [
-    "lint:fix"
+    "lint"
   ]
 }
