@@ -81,5 +81,8 @@
     "start": "webpack-dev-server --config config/webpack.config.development.js --mode development -w --info false --debug --devtool eval-source-map",
     "build-dev": "rm -rf build/ && webpack --config config/webpack.config.development.js --mode production",
     "build": "rm -rf dist/ && webpack --config config/webpack.config.production.js --mode production"
-  }
+  },
+  "pre-commit": [
+    "lint:fix"
+  ]
 }

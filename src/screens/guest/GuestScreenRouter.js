@@ -1,4 +1,6 @@
-import React, { Fragment, PureComponent, Suspense, lazy } from 'react'
+import React, {
+  Fragment, PureComponent, Suspense, lazy
+} from 'react'
 import { Route, Switch } from 'react-router-dom'
 import withLayout from '../../layouts'
 
